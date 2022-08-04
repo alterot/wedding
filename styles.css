@@ -1,0 +1,128 @@
+html {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    color: #500013;
+    background-color: #EEEAE1;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #500013;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited, a:active {
+    text-decoration: none;
+    color: #500013;
+}
+
+nav {
+    width: 100%;
+    background-color: #DEDCCD; 
+    opacity: 0.5;
+    position: fixed;
+    font-size: 1rem;
+    font-weight: 250;
+}
+nav:hover {
+    opacity: 1;
+}
+
+ul {
+    list-style: none;
+    font-size: 0.75rem;
+    display: inline-flex;  
+}
+
+li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 7.5rem;
+    font-weight: 300;
+    padding-top: 75px;
+    padding-bottom: 0px;
+    margin: 20px auto;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 250;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 250;
+}
+
+#start-bild {
+    height: 700px;
+    width: 1300px;
+    margin: 15px auto;
+    background-color: #fff;
+    background: url("images/skog.jpg");
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    height: 360px;
+    width: 650px;
+    background-color: #DEDCCD;
+}
+
+.text p {
+    margin: 10% 5%;
+}
+
+.bild {
+     height: 360px;
+     width: 650px;     
+}
+
+
+.notebook {
+    background: url("images/sommar.jpeg");
+    background-size: cover;
+}
+
+.amund {
+    background: url("images/amund-bild.jpg");
+    background-size: cover;
+}
+
+.hossmo {
+    background: url("images/hossmo-bild.jpg");
+    background-size: cover;
+}
+
+.fest {
+    background: url("images/amund-bild.jpg");
+    background-size: cover;
+}
+
+.tal {
+    background: url("images/notebook2.jpg");
+    background-size: cover;
+}
+
+.klädsel {
+    background: url("images/dress2.jpg");
+    background-size: cover;
+}
