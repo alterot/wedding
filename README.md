@@ -1,2 +1,2 @@
-# wedding
-RSVP wedding
+# wedding site
+Information, RSVP, etc.
