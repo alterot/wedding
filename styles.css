@@ -49,13 +49,11 @@ li {
 }
 
 h1 {
-   
     font-size: 7.5rem;
     font-weight: 300;
     padding-top: 75px;
     padding-bottom: 0px;
     margin: 20px auto;
-    position: relative;
 }
 
 h2 {
@@ -71,10 +69,10 @@ p {
 }
 
 #start-bild {
-    height: 700px;
+    height: 900px;
     max-width: 1300px;
     margin: 15px auto;
-    background: url("images/skog.jpg");
+    background: url("images/IMG_0283.jpeg");
     background-size: cover;
 }
 
@@ -103,8 +101,8 @@ p {
 }
 
 
-.notebook {
-    background: url("images/sommar.jpeg");
+.intro {
+    background: url("images/notebook2.jpg");
     background-size: cover;
 }
 
@@ -114,7 +112,7 @@ p {
 }
 
 .hossmo {
-    background: url("images/hossmo-bild.jpg");
+    background: url("images/hossmo-bild2.jpeg");
     background-size: cover;
 }
 
@@ -124,12 +122,22 @@ p {
 }
 
 .tal {
-    background: url("images/notebook2.jpg");
+    background: url("images/IMG_4021.jpeg");
     background-size: cover;
 }
 
 .klädsel {
     background: url("images/dress2.jpg");
+    background-size: cover;
+}
+
+.presenter {
+    background: url("images/grekland.jpeg");
+    background-size: cover;
+}
+
+.annat {
+    background: url("images/annat.jpeg");
     background-size: cover;
 }
 
@@ -140,8 +148,8 @@ p {
     }
 
     li {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 7.5px;
+        margin-right: 7.5px;
     }
 
     h1 {
@@ -159,8 +167,7 @@ p {
 
     #start-bild {
         width: 100%;
-        background: url("images/skog.jpg");
-        background-size: auto 100%;
+        background-position: center;
     }
 
     .container {
@@ -172,7 +179,7 @@ p {
         align-content: center;
     }
 
-    #intro, #fest-info, #klädsel-info {
+    #intro, #fest-info, #klädsel-info, #annat-info {
         flex-direction: column-reverse;
     }
     
@@ -189,6 +196,7 @@ p {
     .bild {
          height: 360px;
          max-width: 100%;   
+         background-position: center;
     }
 
     #form {
