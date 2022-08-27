@@ -12,10 +12,9 @@
     </head>
     <body>
         <header>
-          <nav>
+          <nav id="nav">
             <ul class="navigation">
                 <li><a href="#start">Start</a></li>
-                <!-- <li><a href="#plats">Plats</a></li> -->
                 <li><a href="#vigsel">Vigsel</a></li>
                 <li><a href="#fest">Middag</a></li>
                 <li><a href="#tal">Tal</a></li>
@@ -145,6 +144,20 @@
                   marginheight="0" marginwidth="0">Läser in …</iframe>
             </div>
           </div>
+          <script>
+            window.onscroll = function() {scrollFunction()};
+            function scrollFunction() {
+              if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("nav").style.padding = "20px, 10px";
+                document.getElementById("nav").style.borderBottom = "solid 1px #500013";
+                document.getElementById("nav").style.fontSize = "0.75rem";
+              } else {
+                document.getElementById("nav").style.fontSize = "1rem";
+                document.getElementById("nav").style.borderBottom = "none";
+              }
+            }
+            
+          </script>
 
         </main>
     </body>
